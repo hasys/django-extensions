@@ -110,6 +110,8 @@ Command Extensions
 
 * :doc:`reset_db` - Resets a database (currently sqlite3, mysql, postgres). Uses "DROP DATABASE" and "CREATE DATABASE".
 
+* :doc:`reset_schema` - Resets a schema in database (postgres only). Uses "DROP SCHEMA" and "CREATE SCHEMA".
+
 * *runjob* - Run a single maintenance job.  Part of the jobs system.
 
 * *runjobs* - Runs scheduled maintenance jobs. Specify hourly, daily, weekly,
